@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MUC-IE-BRp">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="burbank_big_condensed_black.otf">
+            <string>BurbankBigCondensed-Black</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Notícias-->
+        <scene sceneID="ZSa-46-Hqe">
+            <objects>
+                <tableViewController title="Notícias" id="MUC-IE-BRp" customClass="NewsViewController" customModule="Fortnaticos" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="GIc-P4-hDn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NewsItemTableViewCell" rowHeight="220" id="k4L-Ih-lbf" customClass="NewsItemTableViewCell" customModule="Fortnaticos" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="220"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="k4L-Ih-lbf" id="RNX-7A-JBl">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="220"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OB7-DO-kat">
+                                            <rect key="frame" x="20" y="11" width="374" height="198"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="s6s-UY-1EL">
+                                                    <rect key="frame" x="-2" y="-2" width="378" height="202"/>
+                                                </imageView>
+                                                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fhn-ov-sWF">
+                                                    <rect key="frame" x="0.0" y="134" width="374" height="66"/>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </view>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikg-V0-Ieu">
+                                                    <rect key="frame" x="10" y="144" width="354" height="17"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="17" id="duH-eh-vOz"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="BurbankBigCondensed-Black" family="Burbank Big Condensed" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Body" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ivD-pg-jFM">
+                                                    <rect key="frame" x="10" y="171" width="354" height="17"/>
+                                                    <fontDescription key="fontDescription" name="BurbankBigCondensed-Black" family="Burbank Big Condensed" pointSize="17"/>
+                                                    <color key="textColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="ikg-V0-Ieu" secondAttribute="trailing" constant="10" id="1Om-Oc-eTf"/>
+                                                <constraint firstAttribute="trailing" secondItem="ivD-pg-jFM" secondAttribute="trailing" constant="10" id="4sa-jA-E9Y"/>
+                                                <constraint firstItem="s6s-UY-1EL" firstAttribute="leading" secondItem="OB7-DO-kat" secondAttribute="leading" constant="-2" id="5sT-Di-5uA"/>
+                                                <constraint firstAttribute="height" constant="198" id="62x-79-Bc9"/>
+                                                <constraint firstItem="ikg-V0-Ieu" firstAttribute="leading" secondItem="OB7-DO-kat" secondAttribute="leading" constant="10" id="GO1-U6-My0"/>
+                                                <constraint firstItem="s6s-UY-1EL" firstAttribute="top" secondItem="OB7-DO-kat" secondAttribute="top" constant="-2" id="VWj-dx-9xH"/>
+                                                <constraint firstItem="fhn-ov-sWF" firstAttribute="top" secondItem="ikg-V0-Ieu" secondAttribute="top" constant="-10" id="WCz-gK-Y2Z"/>
+                                                <constraint firstAttribute="trailing" secondItem="s6s-UY-1EL" secondAttribute="trailing" constant="-2" id="Zvo-00-DHq"/>
+                                                <constraint firstAttribute="trailing" secondItem="fhn-ov-sWF" secondAttribute="trailing" id="a8o-yN-G1i"/>
+                                                <constraint firstItem="fhn-ov-sWF" firstAttribute="leading" secondItem="OB7-DO-kat" secondAttribute="leading" id="afi-4k-3vt"/>
+                                                <constraint firstItem="ivD-pg-jFM" firstAttribute="top" secondItem="ikg-V0-Ieu" secondAttribute="bottom" constant="10" id="apz-hO-dSn"/>
+                                                <constraint firstAttribute="bottom" secondItem="ivD-pg-jFM" secondAttribute="bottom" constant="10" id="bej-P4-YM5"/>
+                                                <constraint firstAttribute="bottom" secondItem="s6s-UY-1EL" secondAttribute="bottom" constant="-2" id="bnf-j3-SfN"/>
+                                                <constraint firstItem="ivD-pg-jFM" firstAttribute="top" secondItem="ikg-V0-Ieu" secondAttribute="bottom" constant="10" id="cAu-O9-frR"/>
+                                                <constraint firstAttribute="bottom" secondItem="fhn-ov-sWF" secondAttribute="bottom" constant="-2" id="hVn-xF-4er"/>
+                                                <constraint firstItem="ivD-pg-jFM" firstAttribute="leading" secondItem="OB7-DO-kat" secondAttribute="leading" constant="10" id="ylj-bu-E0O"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusEx">
+                                                    <real key="value" value="10"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="OB7-DO-kat" firstAttribute="trailing" secondItem="RNX-7A-JBl" secondAttribute="trailingMargin" id="8iq-a6-0yg"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="OB7-DO-kat" secondAttribute="bottom" id="dFw-B7-mok"/>
+                                        <constraint firstItem="OB7-DO-kat" firstAttribute="top" secondItem="RNX-7A-JBl" secondAttribute="topMargin" id="ilV-ol-TN3"/>
+                                        <constraint firstItem="OB7-DO-kat" firstAttribute="leading" secondItem="RNX-7A-JBl" secondAttribute="leadingMargin" id="oG5-wZ-sLd"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bodyLabel" destination="ivD-pg-jFM" id="HY6-Cv-6hN"/>
+                                    <outlet property="newImageView" destination="s6s-UY-1EL" id="xLI-Th-QhT"/>
+                                    <outlet property="titleLabel" destination="ikg-V0-Ieu" id="zXD-5H-Y1k"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="MUC-IE-BRp" id="dY7-eE-XjJ"/>
+                            <outlet property="delegate" destination="MUC-IE-BRp" id="XTE-L3-wfp"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="Notícias" image="ic_news" id="NaJ-h1-0ax"/>
+                    <navigationItem key="navigationItem" title="Notícias" id="XWJ-Yu-qTZ"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W6f-8O-qDr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="103.79464285714285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_news" width="21" height="21"/>
+    </resources>
+</document>

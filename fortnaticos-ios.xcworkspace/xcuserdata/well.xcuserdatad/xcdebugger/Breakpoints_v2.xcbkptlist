@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FAEBC00A-8F44-4FAA-AC71-2739F5727F24"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD4437D9-6123-44C2-AD0D-2E4BBE7D0B9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fortnaticos-ios/presentation/viewmodels/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getStats(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD4437D9-6123-44C2-AD0D-2E4BBE7D0B9F - f3b476cca3b55e3c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Fortnaticos.StatsDTO, Swift.Error&gt;) -&gt; () in Fortnaticos.UserViewModel.getStats(completion: (Swift.Optional&lt;Fortnaticos.StatsDTO&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Fortnaticos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/well/Workspace/JW/fortnaticos-ios/fortnaticos-ios/presentation/viewmodels/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "CD4437D9-6123-44C2-AD0D-2E4BBE7D0B9F - f3b476cca3b55e3c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Fortnaticos.StatsDTO, Swift.Error&gt;) -&gt; () in Fortnaticos.UserViewModel.getStats(completion: (Swift.Optional&lt;Fortnaticos.StatsDTO&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Fortnaticos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/well/Workspace/JW/fortnaticos-ios/fortnaticos-ios/presentation/viewmodels/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "203">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CAA54DEE-DA10-4C2E-A33E-81769F6B3ABE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fortnaticos-ios/presentation/viewmodels/UserViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getStats(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CAA54DEE-DA10-4C2E-A33E-81769F6B3ABE - 4dd6e9d97a30d3d5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Fortnaticos.UserViewModel.getStats(completion: (Swift.Optional&lt;Fortnaticos.StatsDTO&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Fortnaticos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/well/Workspace/JW/fortnaticos-ios/fortnaticos-ios/presentation/viewmodels/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "CAA54DEE-DA10-4C2E-A33E-81769F6B3ABE - f3b476cca3b55e3c"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Fortnaticos.StatsDTO, Swift.Error&gt;) -&gt; () in Fortnaticos.UserViewModel.getStats(completion: (Swift.Optional&lt;Fortnaticos.StatsDTO&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Fortnaticos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/well/Workspace/JW/fortnaticos-ios/fortnaticos-ios/presentation/viewmodels/UserViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6EB1247-470B-4974-966C-8C9D3CD27042"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fortnaticos-ios/data/remote/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "serialize(request:response:data:error:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC1EEC31-BEEE-4DBD-A6D1-63FB7DA99FAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fortnaticos-ios/presentation/viewmodels/StoreViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getStore()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC1EEC31-BEEE-4DBD-A6D1-63FB7DA99FAA - 681040ecec034e43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Fortnaticos.StoreDTO, Swift.Error&gt;) -&gt; () in Fortnaticos.StoreViewModel.getStore() -&gt; ()"
+                  moduleName = "Fortnaticos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/well/Workspace/JW/fortnaticos-ios/fortnaticos-ios/presentation/viewmodels/StoreViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "117">
+               </Location>
+               <Location
+                  uuid = "BC1EEC31-BEEE-4DBD-A6D1-63FB7DA99FAA - 681040ecec034e43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Fortnaticos.StoreDTO, Swift.Error&gt;) -&gt; () in Fortnaticos.StoreViewModel.getStore() -&gt; ()"
+                  moduleName = "Fortnaticos"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/well/Workspace/JW/fortnaticos-ios/fortnaticos-ios/presentation/viewmodels/StoreViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "146">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B06F8CF0-101A-4917-A87C-51A509E298F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fortnaticos-ios/presentation/viewmodels/StoreViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "getStore()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "05CE5167-8C61-4669-813A-663103DD8B4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "fortnaticos-ios/data/remote/ApiManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "request(requestPath:method:parameters:multipartData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

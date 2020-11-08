@@ -1,0 +1,1193 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F194E6948788FBE815C8D54 /* Pods_fortnaticos_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0724AC859E4FD77A225BF48C /* Pods_fortnaticos_ios.framework */; };
+		3F185A622557799600B6F89B /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F185A612557799600B6F89B /* NewsViewModel.swift */; };
+		3F185A64255779D400B6F89B /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F185A63255779D400B6F89B /* News.swift */; };
+		3F1B5E41254DC09500D26A79 /* burbank_big_condensed_black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F1B5E40254DC09500D26A79 /* burbank_big_condensed_black.otf */; };
+		3F66639E2551F2A800D12264 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F66639D2551F2A800D12264 /* Stats.swift */; };
+		3F7A1B8925520EFC0024E14C /* UISimpleSlidingTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A1B8825520EFC0024E14C /* UISimpleSlidingTabController.swift */; };
+		3F7A1B8C2552107C0024E14C /* SwiftOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7A1B8B2552107C0024E14C /* SwiftOverlays.swift */; };
+		3F8C891E25505E47001D128E /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C891D25505E47001D128E /* News.storyboard */; };
+		3F8C892025505E53001D128E /* Store.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C891F25505E53001D128E /* Store.storyboard */; };
+		3F8C892225505E99001D128E /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C892125505E99001D128E /* StoreViewController.swift */; };
+		3F8C892425505EAC001D128E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C892325505EAC001D128E /* NewsViewController.swift */; };
+		3FB7F59C25536EF40076483F /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7F59B25536EF40076483F /* Store.swift */; };
+		3FB7F59E255375FC0076483F /* StoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7F59D255375FC0076483F /* StoreViewModel.swift */; };
+		3FF6A002254DC5A600780052 /* Cabin-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF69FFA254DC5A600780052 /* Cabin-Regular.ttf */; };
+		3FF6A003254DC5A600780052 /* Cabin-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF69FFB254DC5A600780052 /* Cabin-Italic.ttf */; };
+		3FF6A004254DC5A600780052 /* Cabin-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF69FFC254DC5A600780052 /* Cabin-MediumItalic.ttf */; };
+		3FF6A005254DC5A600780052 /* Cabin-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF69FFD254DC5A600780052 /* Cabin-Medium.ttf */; };
+		3FF6A006254DC5A600780052 /* Cabin-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF69FFE254DC5A600780052 /* Cabin-BoldItalic.ttf */; };
+		3FF6A007254DC5A600780052 /* Cabin-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF69FFF254DC5A600780052 /* Cabin-SemiBold.ttf */; };
+		3FF6A008254DC5A600780052 /* Cabin-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6A000254DC5A600780052 /* Cabin-SemiBoldItalic.ttf */; };
+		3FF6A009254DC5A600780052 /* Cabin-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FF6A001254DC5A600780052 /* Cabin-Bold.ttf */; };
+		A3A462527EEED62EE8B78FDE /* Pods_fortnaticos_iosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970129F32924446BB82AE30D /* Pods_fortnaticos_iosTests.framework */; };
+		B38AF65FEA0C98B4F624A3DA /* Pods_fortnaticos_ios_fortnaticos_iosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9DEA091DE21B9871456035 /* Pods_fortnaticos_ios_fortnaticos_iosUITests.framework */; };
+		CF1E79BF242CFE7700074A99 /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E79BE242CFE7700074A99 /* Encodable.swift */; };
+		CF1E79F1242D1BBF00074A99 /* fortnaticos-iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1E79F0242D1BBF00074A99 /* fortnaticos-iosTests.swift */; };
+		CF3977BB2432BB8600D07A9F /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3977BA2432BB8600D07A9F /* Resource.swift */; };
+		CF3977BD2432BB9900D07A9F /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3977BC2432BB9900D07A9F /* Observable.swift */; };
+		CF3977C02433900E00D07A9F /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3977BF2433900E00D07A9F /* Home.storyboard */; };
+		CF3977C22433902C00D07A9F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3977C12433902C00D07A9F /* HomeViewController.swift */; };
+		CF3977CD243393CB00D07A9F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3977CC243393CB00D07A9F /* MainViewController.swift */; };
+		CFBB357B242EAAE700F0D2CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFBB357A242EAAE600F0D2CB /* GoogleService-Info.plist */; };
+		CFBB3580242EB33D00F0D2CB /* FirebaseMessagingHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB357D242EB33C00F0D2CB /* FirebaseMessagingHandler.swift */; };
+		CFBB3581242EB33D00F0D2CB /* FirebaseNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB357E242EB33D00F0D2CB /* FirebaseNotification.swift */; };
+		CFBB3582242EB33D00F0D2CB /* FirebaseTokenManeger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBB357F242EB33D00F0D2CB /* FirebaseTokenManeger.swift */; };
+		CFCA4F092433B7030078A858 /* UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCA4F082433B7030078A858 /* UIAlertController.swift */; };
+		CFF81304242955FE00520889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81303242955FE00520889 /* AppDelegate.swift */; };
+		CFF81306242955FE00520889 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81305242955FE00520889 /* SceneDelegate.swift */; };
+		CFF8130B242955FE00520889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF81309242955FE00520889 /* Main.storyboard */; };
+		CFF81310242955FF00520889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF8130F242955FF00520889 /* Assets.xcassets */; };
+		CFF81313242955FF00520889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF81311242955FF00520889 /* LaunchScreen.storyboard */; };
+		CFF813292429560000520889 /* fortnaticos-iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF813282429560000520889 /* fortnaticos-iosUITests.swift */; };
+		CFF8133E2429591300520889 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF8133D2429591300520889 /* SplashScreen.storyboard */; };
+		CFF813402429594900520889 /* SplashScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8133F2429594900520889 /* SplashScreenController.swift */; };
+		CFF813482429665A00520889 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF813472429665A00520889 /* Constants.swift */; };
+		CFF8134E2429677300520889 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF813492429677100520889 /* String.swift */; };
+		CFF8134F2429677300520889 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8134A2429677100520889 /* Bundle.swift */; };
+		CFF813502429677300520889 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8134B2429677200520889 /* UIColor.swift */; };
+		CFF813512429677300520889 /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8134C2429677200520889 /* UIFont.swift */; };
+		CFF813522429677300520889 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8134D2429677200520889 /* Date.swift */; };
+		CFF81354242968D400520889 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81353242968D400520889 /* Double.swift */; };
+		CFF813562429691000520889 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF813552429691000520889 /* UILabel.swift */; };
+		CFF813582429696700520889 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF813572429696700520889 /* UITextField.swift */; };
+		CFF8135F24296A4700520889 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8135924296A4500520889 /* UICollectionView.swift */; };
+		CFF8136024296A4700520889 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8135A24296A4500520889 /* UITableView.swift */; };
+		CFF8136124296A4700520889 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8135B24296A4600520889 /* UIView.swift */; };
+		CFF8136224296A4700520889 /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8135C24296A4600520889 /* UISegmentedControl.swift */; };
+		CFF8136324296A4700520889 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8135D24296A4600520889 /* UIViewController.swift */; };
+		CFF8136424296A4700520889 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8135E24296A4700520889 /* UIImageView.swift */; };
+		CFF8136624296A8500520889 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8136524296A8500520889 /* UIImage.swift */; };
+		CFF8136824296B1F00520889 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8136724296B1F00520889 /* BaseViewController.swift */; };
+		CFF8136A24296B2C00520889 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8136924296B2C00520889 /* BaseTableViewController.swift */; };
+		CFF8136D24296BEF00520889 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8136C24296BEF00520889 /* User.swift */; };
+		CFF8137724296D8800520889 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8137624296D8800520889 /* ApiManager.swift */; };
+		CFF8138F242BA66900520889 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8138E242BA66900520889 /* UserDefaultsManager.swift */; };
+		CFF81391242BB0CE00520889 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81390242BB0CE00520889 /* BaseViewModel.swift */; };
+		CFF81395242C495F00520889 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81394242C495F00520889 /* UserViewModel.swift */; };
+		CFF81397242C4F3700520889 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF81396242C4F3700520889 /* UserDefaults.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF1E79F3242D1BBF00074A99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF812F8242955FE00520889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF812FF242955FE00520889;
+			remoteInfo = "ios-base";
+		};
+		CFF813252429560000520889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFF812F8242955FE00520889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF812FF242955FE00520889;
+			remoteInfo = "ios-base";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0724AC859E4FD77A225BF48C /* Pods_fortnaticos_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fortnaticos_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E04439729FE7B61B0181F4A /* Pods-ios-base-ios-baseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-base-ios-baseUITests.debug.xcconfig"; path = "Target Support Files/Pods-ios-base-ios-baseUITests/Pods-ios-base-ios-baseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BB510680788A33E424A58D8 /* Pods-fortnaticos-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fortnaticos-ios.release.xcconfig"; path = "Target Support Files/Pods-fortnaticos-ios/Pods-fortnaticos-ios.release.xcconfig"; sourceTree = "<group>"; };
+		3B26EA37F8BFE5E297C78C86 /* Pods-ios-baseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-baseTests.release.xcconfig"; path = "Target Support Files/Pods-ios-baseTests/Pods-ios-baseTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F185A612557799600B6F89B /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		3F185A63255779D400B6F89B /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		3F1B5E40254DC09500D26A79 /* burbank_big_condensed_black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = burbank_big_condensed_black.otf; sourceTree = "<group>"; };
+		3F66639D2551F2A800D12264 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		3F7A1B8825520EFC0024E14C /* UISimpleSlidingTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISimpleSlidingTabController.swift; sourceTree = "<group>"; };
+		3F7A1B8B2552107C0024E14C /* SwiftOverlays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftOverlays.swift; sourceTree = "<group>"; };
+		3F8C891D25505E47001D128E /* News.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		3F8C891F25505E53001D128E /* Store.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Store.storyboard; sourceTree = "<group>"; };
+		3F8C892125505E99001D128E /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		3F8C892325505EAC001D128E /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		3FB7F59B25536EF40076483F /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3FB7F59D255375FC0076483F /* StoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewModel.swift; sourceTree = "<group>"; };
+		3FF69FFA254DC5A600780052 /* Cabin-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Regular.ttf"; sourceTree = "<group>"; };
+		3FF69FFB254DC5A600780052 /* Cabin-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Italic.ttf"; sourceTree = "<group>"; };
+		3FF69FFC254DC5A600780052 /* Cabin-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3FF69FFD254DC5A600780052 /* Cabin-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Medium.ttf"; sourceTree = "<group>"; };
+		3FF69FFE254DC5A600780052 /* Cabin-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3FF69FFF254DC5A600780052 /* Cabin-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-SemiBold.ttf"; sourceTree = "<group>"; };
+		3FF6A000254DC5A600780052 /* Cabin-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3FF6A001254DC5A600780052 /* Cabin-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cabin-Bold.ttf"; sourceTree = "<group>"; };
+		422755FDFFDA1D6000D29AC3 /* Pods-ios-base-ios-baseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-base-ios-baseUITests.release.xcconfig"; path = "Target Support Files/Pods-ios-base-ios-baseUITests/Pods-ios-base-ios-baseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4896F62ED9856C1E2971D611 /* Pods-fortnaticos-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fortnaticos-ios.debug.xcconfig"; path = "Target Support Files/Pods-fortnaticos-ios/Pods-fortnaticos-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		49CD218378C4B9BAEB0355D2 /* Pods-fortnaticos-iosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fortnaticos-iosTests.debug.xcconfig"; path = "Target Support Files/Pods-fortnaticos-iosTests/Pods-fortnaticos-iosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56A929BE6E9E03B7F8AD36B1 /* Pods-ios-baseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-baseTests.debug.xcconfig"; path = "Target Support Files/Pods-ios-baseTests/Pods-ios-baseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		587AAF6CB9060051CFD69AEF /* Pods-fortnaticos-ios-fortnaticos-iosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fortnaticos-ios-fortnaticos-iosUITests.release.xcconfig"; path = "Target Support Files/Pods-fortnaticos-ios-fortnaticos-iosUITests/Pods-fortnaticos-ios-fortnaticos-iosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C94FC89769A6F9F6C515170 /* Pods-ios-base.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-base.debug.xcconfig"; path = "Target Support Files/Pods-ios-base/Pods-ios-base.debug.xcconfig"; sourceTree = "<group>"; };
+		970129F32924446BB82AE30D /* Pods_fortnaticos_iosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fortnaticos_iosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7D03297BCA8CEF85B292C0 /* Pods-fortnaticos-iosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fortnaticos-iosTests.release.xcconfig"; path = "Target Support Files/Pods-fortnaticos-iosTests/Pods-fortnaticos-iosTests.release.xcconfig"; sourceTree = "<group>"; };
+		A509DD1F68ABD8E50BE849B2 /* Pods-ios-base.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-base.release.xcconfig"; path = "Target Support Files/Pods-ios-base/Pods-ios-base.release.xcconfig"; sourceTree = "<group>"; };
+		CF1E79BE242CFE7700074A99 /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		CF1E79EE242D1BBF00074A99 /* fortnaticos-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fortnaticos-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF1E79F0242D1BBF00074A99 /* fortnaticos-iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fortnaticos-iosTests.swift"; sourceTree = "<group>"; };
+		CF1E79F2242D1BBF00074A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF3977BA2432BB8600D07A9F /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		CF3977BC2432BB9900D07A9F /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		CF3977BF2433900E00D07A9F /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CF3977C12433902C00D07A9F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CF3977CC243393CB00D07A9F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CFBB357A242EAAE600F0D2CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CFBB357D242EB33C00F0D2CB /* FirebaseMessagingHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseMessagingHandler.swift; sourceTree = "<group>"; };
+		CFBB357E242EB33D00F0D2CB /* FirebaseNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseNotification.swift; sourceTree = "<group>"; };
+		CFBB357F242EB33D00F0D2CB /* FirebaseTokenManeger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseTokenManeger.swift; sourceTree = "<group>"; };
+		CFCA4F082433B7030078A858 /* UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlertController.swift; sourceTree = "<group>"; };
+		CFF81300242955FE00520889 /* Fortnaticos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fortnaticos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF81303242955FE00520889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFF81305242955FE00520889 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFF8130A242955FE00520889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFF8130F242955FF00520889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFF81312242955FF00520889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFF81314242955FF00520889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF813242429560000520889 /* fortnaticos-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fortnaticos-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFF813282429560000520889 /* fortnaticos-iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "fortnaticos-iosUITests.swift"; sourceTree = "<group>"; };
+		CFF8132A2429560000520889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFF8133D2429591300520889 /* SplashScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SplashScreen.storyboard; sourceTree = "<group>"; };
+		CFF8133F2429594900520889 /* SplashScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenController.swift; sourceTree = "<group>"; };
+		CFF813472429665A00520889 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CFF813492429677100520889 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		CFF8134A2429677100520889 /* Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		CFF8134B2429677200520889 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		CFF8134C2429677200520889 /* UIFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		CFF8134D2429677200520889 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		CFF81353242968D400520889 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		CFF813552429691000520889 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		CFF813572429696700520889 /* UITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextField.swift; sourceTree = "<group>"; };
+		CFF8135924296A4500520889 /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		CFF8135A24296A4500520889 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		CFF8135B24296A4600520889 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CFF8135C24296A4600520889 /* UISegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISegmentedControl.swift; sourceTree = "<group>"; };
+		CFF8135D24296A4600520889 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		CFF8135E24296A4700520889 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		CFF8136524296A8500520889 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		CFF8136724296B1F00520889 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CFF8136924296B2C00520889 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		CFF8136C24296BEF00520889 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CFF8137624296D8800520889 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		CFF8138E242BA66900520889 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		CFF81390242BB0CE00520889 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		CFF81394242C495F00520889 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		CFF81396242C4F3700520889 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		E07559981AD6261CFE44B56B /* Pods-fortnaticos-ios-fortnaticos-iosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fortnaticos-ios-fortnaticos-iosUITests.debug.xcconfig"; path = "Target Support Files/Pods-fortnaticos-ios-fortnaticos-iosUITests/Pods-fortnaticos-ios-fortnaticos-iosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FE9DEA091DE21B9871456035 /* Pods_fortnaticos_ios_fortnaticos_iosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fortnaticos_ios_fortnaticos_iosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF1E79EB242D1BBF00074A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A462527EEED62EE8B78FDE /* Pods_fortnaticos_iosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF812FD242955FE00520889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F194E6948788FBE815C8D54 /* Pods_fortnaticos_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF813212429560000520889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38AF65FEA0C98B4F624A3DA /* Pods_fortnaticos_ios_fortnaticos_iosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F7A1B8525520EA90024E14C /* UISimpleSlidingTabController */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A1B8825520EFC0024E14C /* UISimpleSlidingTabController.swift */,
+			);
+			path = UISimpleSlidingTabController;
+			sourceTree = "<group>";
+		};
+		3F7A1B8A255210630024E14C /* SwiftOverlays */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A1B8B2552107C0024E14C /* SwiftOverlays.swift */,
+			);
+			path = SwiftOverlays;
+			sourceTree = "<group>";
+		};
+		3F8C8918254F22FC001D128E /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				3F7A1B8A255210630024E14C /* SwiftOverlays */,
+				3F7A1B8525520EA90024E14C /* UISimpleSlidingTabController */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		3F8C891B25505E2B001D128E /* news */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C891D25505E47001D128E /* News.storyboard */,
+				3F8C892325505EAC001D128E /* NewsViewController.swift */,
+			);
+			path = news;
+			sourceTree = "<group>";
+		};
+		3F8C891C25505E32001D128E /* store */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C891F25505E53001D128E /* Store.storyboard */,
+				3F8C892125505E99001D128E /* StoreViewController.swift */,
+			);
+			path = store;
+			sourceTree = "<group>";
+		};
+		7A73BFC5B9ED8724F57166B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0724AC859E4FD77A225BF48C /* Pods_fortnaticos_ios.framework */,
+				FE9DEA091DE21B9871456035 /* Pods_fortnaticos_ios_fortnaticos_iosUITests.framework */,
+				970129F32924446BB82AE30D /* Pods_fortnaticos_iosTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9E19B04CC4C6535BE4435BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C94FC89769A6F9F6C515170 /* Pods-ios-base.debug.xcconfig */,
+				A509DD1F68ABD8E50BE849B2 /* Pods-ios-base.release.xcconfig */,
+				0E04439729FE7B61B0181F4A /* Pods-ios-base-ios-baseUITests.debug.xcconfig */,
+				422755FDFFDA1D6000D29AC3 /* Pods-ios-base-ios-baseUITests.release.xcconfig */,
+				56A929BE6E9E03B7F8AD36B1 /* Pods-ios-baseTests.debug.xcconfig */,
+				3B26EA37F8BFE5E297C78C86 /* Pods-ios-baseTests.release.xcconfig */,
+				4896F62ED9856C1E2971D611 /* Pods-fortnaticos-ios.debug.xcconfig */,
+				2BB510680788A33E424A58D8 /* Pods-fortnaticos-ios.release.xcconfig */,
+				E07559981AD6261CFE44B56B /* Pods-fortnaticos-ios-fortnaticos-iosUITests.debug.xcconfig */,
+				587AAF6CB9060051CFD69AEF /* Pods-fortnaticos-ios-fortnaticos-iosUITests.release.xcconfig */,
+				49CD218378C4B9BAEB0355D2 /* Pods-fortnaticos-iosTests.debug.xcconfig */,
+				9D7D03297BCA8CEF85B292C0 /* Pods-fortnaticos-iosTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CF1E79EF242D1BBF00074A99 /* fortnaticos-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF1E79F0242D1BBF00074A99 /* fortnaticos-iosTests.swift */,
+				CF1E79F2242D1BBF00074A99 /* Info.plist */,
+			);
+			path = "fortnaticos-iosTests";
+			sourceTree = "<group>";
+		};
+		CF1E79F8242D5F8D00074A99 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				3F8C891C25505E32001D128E /* store */,
+				3F8C891B25505E2B001D128E /* news */,
+				CF3977BE24338FE600D07A9F /* home */,
+				CFF81309242955FE00520889 /* Main.storyboard */,
+				CF3977CC243393CB00D07A9F /* MainViewController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		CF3977B92432BA8000D07A9F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				CF3977BA2432BB8600D07A9F /* Resource.swift */,
+				CF3977BC2432BB9900D07A9F /* Observable.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		CF3977BE24338FE600D07A9F /* home */ = {
+			isa = PBXGroup;
+			children = (
+				CF3977BF2433900E00D07A9F /* Home.storyboard */,
+				CF3977C12433902C00D07A9F /* HomeViewController.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		CFBB3568242E593200F0D2CB /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB3569242E594300F0D2CB /* fonts */,
+				CFF8130F242955FF00520889 /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		CFBB3569242E594300F0D2CB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3FF6A001254DC5A600780052 /* Cabin-Bold.ttf */,
+				3FF69FFE254DC5A600780052 /* Cabin-BoldItalic.ttf */,
+				3FF69FFB254DC5A600780052 /* Cabin-Italic.ttf */,
+				3FF69FFD254DC5A600780052 /* Cabin-Medium.ttf */,
+				3FF69FFC254DC5A600780052 /* Cabin-MediumItalic.ttf */,
+				3FF69FFA254DC5A600780052 /* Cabin-Regular.ttf */,
+				3FF69FFF254DC5A600780052 /* Cabin-SemiBold.ttf */,
+				3FF6A000254DC5A600780052 /* Cabin-SemiBoldItalic.ttf */,
+				3F1B5E40254DC09500D26A79 /* burbank_big_condensed_black.otf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		CFBB357C242EB31400F0D2CB /* fcm */ = {
+			isa = PBXGroup;
+			children = (
+				CFBB357D242EB33C00F0D2CB /* FirebaseMessagingHandler.swift */,
+				CFBB357E242EB33D00F0D2CB /* FirebaseNotification.swift */,
+				CFBB357F242EB33D00F0D2CB /* FirebaseTokenManeger.swift */,
+			);
+			path = fcm;
+			sourceTree = "<group>";
+		};
+		CFF812F7242955FE00520889 = {
+			isa = PBXGroup;
+			children = (
+				CFF81302242955FE00520889 /* fortnaticos-ios */,
+				CFF813272429560000520889 /* fortnaticos-iosUITests */,
+				CF1E79EF242D1BBF00074A99 /* fortnaticos-iosTests */,
+				CFF81301242955FE00520889 /* Products */,
+				B9E19B04CC4C6535BE4435BC /* Pods */,
+				7A73BFC5B9ED8724F57166B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFF81301242955FE00520889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFF81300242955FE00520889 /* Fortnaticos.app */,
+				CFF813242429560000520889 /* fortnaticos-iosUITests.xctest */,
+				CF1E79EE242D1BBF00074A99 /* fortnaticos-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFF81302242955FE00520889 /* fortnaticos-ios */ = {
+			isa = PBXGroup;
+			children = (
+				CFF81336242957EE00520889 /* base */,
+				CFF813462429652000520889 /* core */,
+				CFF81337242957F500520889 /* data */,
+				CFF813382429580D00520889 /* extensions */,
+				CFBB357C242EB31400F0D2CB /* fcm */,
+				3F8C8918254F22FC001D128E /* libs */,
+				CFF813392429583000520889 /* presentation */,
+				CFBB3568242E593200F0D2CB /* resources */,
+				CFF81314242955FF00520889 /* Info.plist */,
+				CFBB357A242EAAE600F0D2CB /* GoogleService-Info.plist */,
+			);
+			path = "fortnaticos-ios";
+			sourceTree = "<group>";
+		};
+		CFF813272429560000520889 /* fortnaticos-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFF813282429560000520889 /* fortnaticos-iosUITests.swift */,
+				CFF8132A2429560000520889 /* Info.plist */,
+			);
+			path = "fortnaticos-iosUITests";
+			sourceTree = "<group>";
+		};
+		CFF81336242957EE00520889 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8136724296B1F00520889 /* BaseViewController.swift */,
+				CFF8136924296B2C00520889 /* BaseTableViewController.swift */,
+				CFF81390242BB0CE00520889 /* BaseViewModel.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		CFF81337242957F500520889 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				CF3977B92432BA8000D07A9F /* util */,
+				CFF8137324296D6900520889 /* cache */,
+				CFF8137224296D6300520889 /* remote */,
+				CFF8136B24296BE100520889 /* entities */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		CFF813382429580D00520889 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8134A2429677100520889 /* Bundle.swift */,
+				CFF8134D2429677200520889 /* Date.swift */,
+				CFF81353242968D400520889 /* Double.swift */,
+				CF1E79BE242CFE7700074A99 /* Encodable.swift */,
+				CFF813492429677100520889 /* String.swift */,
+				CFF81396242C4F3700520889 /* UserDefaults.swift */,
+				CFF8136524296A8500520889 /* UIImage.swift */,
+				CFF8135924296A4500520889 /* UICollectionView.swift */,
+				CFF8135E24296A4700520889 /* UIImageView.swift */,
+				CFF8135C24296A4600520889 /* UISegmentedControl.swift */,
+				CFF8135A24296A4500520889 /* UITableView.swift */,
+				CFF8135B24296A4600520889 /* UIView.swift */,
+				CFF8135D24296A4600520889 /* UIViewController.swift */,
+				CFF8134B2429677200520889 /* UIColor.swift */,
+				CFF8134C2429677200520889 /* UIFont.swift */,
+				CFF813552429691000520889 /* UILabel.swift */,
+				CFF813572429696700520889 /* UITextField.swift */,
+				CFCA4F082433B7030078A858 /* UIAlertController.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		CFF813392429583000520889 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8133B242958A400520889 /* ui */,
+				CFF8133A2429584C00520889 /* viewmodels */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		CFF8133A2429584C00520889 /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				CFF81394242C495F00520889 /* UserViewModel.swift */,
+				3FB7F59D255375FC0076483F /* StoreViewModel.swift */,
+				3F185A612557799600B6F89B /* NewsViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		CFF8133B242958A400520889 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8133C242958AC00520889 /* splashscreen */,
+				CF1E79F8242D5F8D00074A99 /* main */,
+				CFF81311242955FF00520889 /* LaunchScreen.storyboard */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		CFF8133C242958AC00520889 /* splashscreen */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8133D2429591300520889 /* SplashScreen.storyboard */,
+				CFF8133F2429594900520889 /* SplashScreenController.swift */,
+			);
+			path = splashscreen;
+			sourceTree = "<group>";
+		};
+		CFF813462429652000520889 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				CFF81303242955FE00520889 /* AppDelegate.swift */,
+				CFF813472429665A00520889 /* Constants.swift */,
+				CFF81305242955FE00520889 /* SceneDelegate.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		CFF8136B24296BE100520889 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8136C24296BEF00520889 /* User.swift */,
+				3F66639D2551F2A800D12264 /* Stats.swift */,
+				3FB7F59B25536EF40076483F /* Store.swift */,
+				3F185A63255779D400B6F89B /* News.swift */,
+			);
+			path = entities;
+			sourceTree = "<group>";
+		};
+		CFF8137224296D6300520889 /* remote */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8137624296D8800520889 /* ApiManager.swift */,
+			);
+			path = remote;
+			sourceTree = "<group>";
+		};
+		CFF8137324296D6900520889 /* cache */ = {
+			isa = PBXGroup;
+			children = (
+				CFF8138E242BA66900520889 /* UserDefaultsManager.swift */,
+			);
+			path = cache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF1E79ED242D1BBF00074A99 /* fortnaticos-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF1E79F5242D1BBF00074A99 /* Build configuration list for PBXNativeTarget "fortnaticos-iosTests" */;
+			buildPhases = (
+				4587F9F8DEC7C2A462F1E560 /* [CP] Check Pods Manifest.lock */,
+				CF1E79EA242D1BBF00074A99 /* Sources */,
+				CF1E79EB242D1BBF00074A99 /* Frameworks */,
+				CF1E79EC242D1BBF00074A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF1E79F4242D1BBF00074A99 /* PBXTargetDependency */,
+			);
+			name = "fortnaticos-iosTests";
+			productName = "ios-baseTests";
+			productReference = CF1E79EE242D1BBF00074A99 /* fortnaticos-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFF812FF242955FE00520889 /* fortnaticos-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF8132D2429560000520889 /* Build configuration list for PBXNativeTarget "fortnaticos-ios" */;
+			buildPhases = (
+				516340637F76D5DFF2CFBDCF /* [CP] Check Pods Manifest.lock */,
+				CFF812FC242955FE00520889 /* Sources */,
+				CFF812FD242955FE00520889 /* Frameworks */,
+				CFF812FE242955FE00520889 /* Resources */,
+				66512425DC56ADA3BE012F57 /* [CP] Embed Pods Frameworks */,
+				117C05CAC2576A09B3C326C5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fortnaticos-ios";
+			productName = "ios-base";
+			productReference = CFF81300242955FE00520889 /* Fortnaticos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFF813232429560000520889 /* fortnaticos-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFF813332429560000520889 /* Build configuration list for PBXNativeTarget "fortnaticos-iosUITests" */;
+			buildPhases = (
+				DC1ED197F49A0651672DE2FC /* [CP] Check Pods Manifest.lock */,
+				CFF813202429560000520889 /* Sources */,
+				CFF813212429560000520889 /* Frameworks */,
+				CFF813222429560000520889 /* Resources */,
+				DECA4F263B0F00E267689F19 /* [CP] Embed Pods Frameworks */,
+				7B7A2E6560547E1AD01D452D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFF813262429560000520889 /* PBXTargetDependency */,
+			);
+			name = "fortnaticos-iosUITests";
+			productName = "ios-baseUITests";
+			productReference = CFF813242429560000520889 /* fortnaticos-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFF812F8242955FE00520889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = JWAR;
+				TargetAttributes = {
+					CF1E79ED242D1BBF00074A99 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CFF812FF242955FE00520889;
+					};
+					CFF812FF242955FE00520889 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					CFF813232429560000520889 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = CFF812FF242955FE00520889;
+					};
+				};
+			};
+			buildConfigurationList = CFF812FB242955FE00520889 /* Build configuration list for PBXProject "fortnaticos-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFF812F7242955FE00520889;
+			productRefGroup = CFF81301242955FE00520889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFF812FF242955FE00520889 /* fortnaticos-ios */,
+				CF1E79ED242D1BBF00074A99 /* fortnaticos-iosTests */,
+				CFF813232429560000520889 /* fortnaticos-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF1E79EC242D1BBF00074A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF812FE242955FE00520889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF81313242955FF00520889 /* LaunchScreen.storyboard in Resources */,
+				3FF6A007254DC5A600780052 /* Cabin-SemiBold.ttf in Resources */,
+				CFF8133E2429591300520889 /* SplashScreen.storyboard in Resources */,
+				3FF6A008254DC5A600780052 /* Cabin-SemiBoldItalic.ttf in Resources */,
+				CFF81310242955FF00520889 /* Assets.xcassets in Resources */,
+				3FF6A006254DC5A600780052 /* Cabin-BoldItalic.ttf in Resources */,
+				CFF8130B242955FE00520889 /* Main.storyboard in Resources */,
+				3FF6A002254DC5A600780052 /* Cabin-Regular.ttf in Resources */,
+				CF3977C02433900E00D07A9F /* Home.storyboard in Resources */,
+				3FF6A004254DC5A600780052 /* Cabin-MediumItalic.ttf in Resources */,
+				3F1B5E41254DC09500D26A79 /* burbank_big_condensed_black.otf in Resources */,
+				3FF6A003254DC5A600780052 /* Cabin-Italic.ttf in Resources */,
+				3F8C891E25505E47001D128E /* News.storyboard in Resources */,
+				3F8C892025505E53001D128E /* Store.storyboard in Resources */,
+				CFBB357B242EAAE700F0D2CB /* GoogleService-Info.plist in Resources */,
+				3FF6A005254DC5A600780052 /* Cabin-Medium.ttf in Resources */,
+				3FF6A009254DC5A600780052 /* Cabin-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF813222429560000520889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		117C05CAC2576A09B3C326C5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios/Pods-fortnaticos-ios-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios/Pods-fortnaticos-ios-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios/Pods-fortnaticos-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4587F9F8DEC7C2A462F1E560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fortnaticos-iosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		516340637F76D5DFF2CFBDCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fortnaticos-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66512425DC56ADA3BE012F57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios/Pods-fortnaticos-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios/Pods-fortnaticos-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios/Pods-fortnaticos-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7A2E6560547E1AD01D452D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios-fortnaticos-iosUITests/Pods-fortnaticos-ios-fortnaticos-iosUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios-fortnaticos-iosUITests/Pods-fortnaticos-ios-fortnaticos-iosUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios-fortnaticos-iosUITests/Pods-fortnaticos-ios-fortnaticos-iosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1ED197F49A0651672DE2FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fortnaticos-ios-fortnaticos-iosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DECA4F263B0F00E267689F19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios-fortnaticos-iosUITests/Pods-fortnaticos-ios-fortnaticos-iosUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios-fortnaticos-iosUITests/Pods-fortnaticos-ios-fortnaticos-iosUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fortnaticos-ios-fortnaticos-iosUITests/Pods-fortnaticos-ios-fortnaticos-iosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF1E79EA242D1BBF00074A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF1E79F1242D1BBF00074A99 /* fortnaticos-iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF812FC242955FE00520889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBB3581242EB33D00F0D2CB /* FirebaseNotification.swift in Sources */,
+				CFF8136624296A8500520889 /* UIImage.swift in Sources */,
+				3F7A1B8925520EFC0024E14C /* UISimpleSlidingTabController.swift in Sources */,
+				3F185A64255779D400B6F89B /* News.swift in Sources */,
+				CFF8134F2429677300520889 /* Bundle.swift in Sources */,
+				CF3977BD2432BB9900D07A9F /* Observable.swift in Sources */,
+				CFF81397242C4F3700520889 /* UserDefaults.swift in Sources */,
+				CFF8136824296B1F00520889 /* BaseViewController.swift in Sources */,
+				CFF8138F242BA66900520889 /* UserDefaultsManager.swift in Sources */,
+				CFF813562429691000520889 /* UILabel.swift in Sources */,
+				CFBB3580242EB33D00F0D2CB /* FirebaseMessagingHandler.swift in Sources */,
+				CF1E79BF242CFE7700074A99 /* Encodable.swift in Sources */,
+				CFF8137724296D8800520889 /* ApiManager.swift in Sources */,
+				CFF81304242955FE00520889 /* AppDelegate.swift in Sources */,
+				CF3977BB2432BB8600D07A9F /* Resource.swift in Sources */,
+				3F8C892425505EAC001D128E /* NewsViewController.swift in Sources */,
+				CFF81354242968D400520889 /* Double.swift in Sources */,
+				CFF8135F24296A4700520889 /* UICollectionView.swift in Sources */,
+				CFBB3582242EB33D00F0D2CB /* FirebaseTokenManeger.swift in Sources */,
+				CFF813482429665A00520889 /* Constants.swift in Sources */,
+				3F7A1B8C2552107C0024E14C /* SwiftOverlays.swift in Sources */,
+				CFF813512429677300520889 /* UIFont.swift in Sources */,
+				CFF813522429677300520889 /* Date.swift in Sources */,
+				3F66639E2551F2A800D12264 /* Stats.swift in Sources */,
+				CFF8136024296A4700520889 /* UITableView.swift in Sources */,
+				CFF81306242955FE00520889 /* SceneDelegate.swift in Sources */,
+				CFF813582429696700520889 /* UITextField.swift in Sources */,
+				CFF8136324296A4700520889 /* UIViewController.swift in Sources */,
+				CFF8134E2429677300520889 /* String.swift in Sources */,
+				CFF81391242BB0CE00520889 /* BaseViewModel.swift in Sources */,
+				CFCA4F092433B7030078A858 /* UIAlertController.swift in Sources */,
+				CFF8136A24296B2C00520889 /* BaseTableViewController.swift in Sources */,
+				CFF8136424296A4700520889 /* UIImageView.swift in Sources */,
+				CFF813402429594900520889 /* SplashScreenController.swift in Sources */,
+				3FB7F59E255375FC0076483F /* StoreViewModel.swift in Sources */,
+				CFF8136124296A4700520889 /* UIView.swift in Sources */,
+				CFF81395242C495F00520889 /* UserViewModel.swift in Sources */,
+				CFF8136224296A4700520889 /* UISegmentedControl.swift in Sources */,
+				3F8C892225505E99001D128E /* StoreViewController.swift in Sources */,
+				3FB7F59C25536EF40076483F /* Store.swift in Sources */,
+				3F185A622557799600B6F89B /* NewsViewModel.swift in Sources */,
+				CF3977C22433902C00D07A9F /* HomeViewController.swift in Sources */,
+				CFF8136D24296BEF00520889 /* User.swift in Sources */,
+				CFF813502429677300520889 /* UIColor.swift in Sources */,
+				CF3977CD243393CB00D07A9F /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFF813202429560000520889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF813292429560000520889 /* fortnaticos-iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF1E79F4242D1BBF00074A99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF812FF242955FE00520889 /* fortnaticos-ios */;
+			targetProxy = CF1E79F3242D1BBF00074A99 /* PBXContainerItemProxy */;
+		};
+		CFF813262429560000520889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFF812FF242955FE00520889 /* fortnaticos-ios */;
+			targetProxy = CFF813252429560000520889 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFF81309242955FE00520889 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF8130A242955FE00520889 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFF81311242955FF00520889 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFF81312242955FF00520889 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF1E79F6242D1BBF00074A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49CD218378C4B9BAEB0355D2 /* Pods-fortnaticos-iosTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KQZD6QKRW;
+				INFOPLIST_FILE = "ios-baseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimenuto.ios-base.ios-baseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppBase.app/AppBase";
+			};
+			name = Debug;
+		};
+		CF1E79F7242D1BBF00074A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7D03297BCA8CEF85B292C0 /* Pods-fortnaticos-iosTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KQZD6QKRW;
+				INFOPLIST_FILE = "ios-baseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimenuto.ios-base.ios-baseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppBase.app/AppBase";
+			};
+			name = Release;
+		};
+		CFF8132B2429560000520889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFF8132C2429560000520889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFF8132E2429560000520889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4896F62ED9856C1E2971D611 /* Pods-fortnaticos-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KQZD6QKRW;
+				INFOPLIST_FILE = "fortnaticos-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jwar.fortnaticos-ios";
+				PRODUCT_NAME = Fortnaticos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFF8132F2429560000520889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB510680788A33E424A58D8 /* Pods-fortnaticos-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KQZD6QKRW;
+				INFOPLIST_FILE = "fortnaticos-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jwar.fortnaticos-ios";
+				PRODUCT_NAME = Fortnaticos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFF813342429560000520889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E07559981AD6261CFE44B56B /* Pods-fortnaticos-ios-fortnaticos-iosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KQZD6QKRW;
+				INFOPLIST_FILE = "ios-baseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimenuto.ios-base.ios-baseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-base";
+			};
+			name = Debug;
+		};
+		CFF813352429560000520889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 587AAF6CB9060051CFD69AEF /* Pods-fortnaticos-ios-fortnaticos-iosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6KQZD6QKRW;
+				INFOPLIST_FILE = "ios-baseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dimenuto.ios-base.ios-baseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ios-base";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF1E79F5242D1BBF00074A99 /* Build configuration list for PBXNativeTarget "fortnaticos-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF1E79F6242D1BBF00074A99 /* Debug */,
+				CF1E79F7242D1BBF00074A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF812FB242955FE00520889 /* Build configuration list for PBXProject "fortnaticos-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF8132B2429560000520889 /* Debug */,
+				CFF8132C2429560000520889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF8132D2429560000520889 /* Build configuration list for PBXNativeTarget "fortnaticos-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF8132E2429560000520889 /* Debug */,
+				CFF8132F2429560000520889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFF813332429560000520889 /* Build configuration list for PBXNativeTarget "fortnaticos-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF813342429560000520889 /* Debug */,
+				CFF813352429560000520889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFF812F8242955FE00520889 /* Project object */;
+}

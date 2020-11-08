@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Lj4-Xu-uaY">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="burbank_big_condensed_black.otf">
+            <string>BurbankBigCondensed-Black</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Splash Screen Controller-->
+        <scene sceneID="ROu-lI-thf">
+            <objects>
+                <viewController id="Lj4-Xu-uaY" customClass="SplashScreenController" customModule="Fortnaticos" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LRc-42-Jdw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fortnáticos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Pr-2E-rf1">
+                                <rect key="frame" x="91.5" y="420" width="231.5" height="56"/>
+                                <fontDescription key="fontDescription" name="BurbankBigCondensed-Black" family="Burbank Big Condensed" pointSize="56"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Pr-2E-rf1" firstAttribute="centerX" secondItem="LRc-42-Jdw" secondAttribute="centerX" id="jEF-hv-iKL"/>
+                            <constraint firstItem="6Pr-2E-rf1" firstAttribute="centerY" secondItem="LRc-42-Jdw" secondAttribute="centerY" id="zEx-pf-fZo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JM8-X0-f30"/>
+                    </view>
+                    <connections>
+                        <segue destination="HQ3-MT-a9l" kind="show" identifier="mainSegue" id="Of2-rs-Iob"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ueq-XF-NAF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="41" y="74"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="xsJ-Gg-5P7">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Main" storyboardName="Main" id="HQ3-MT-a9l" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Mkq-DY-OqO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fPb-zm-hPX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="641" y="215"/>
+        </scene>
+    </scenes>
+</document>
